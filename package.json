@@ -1,0 +1,24 @@
+{
+  "name": "carpooling-web-app",
+  "version": "1.0.0",
+  "description": "This project is a carpooling web application designed to facilitate easy and efficient ride-sharing for users. Built with the MERN stack, it leverages MongoDB for database management, Express.js and Node.js for the backend, and React for the frontend. The application aims to reduce travel costs, decrease traffic congestion, and minimize environmental impact by connecting drivers with empty seats to passengers looking for a ride.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanirathi/Carpooling-Web-App.git"
+  },
+  "author": "Ansh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanirathi/Carpooling-Web-App/issues"
+  },
+  "homepage": "https://github.com/tanirathi/Carpooling-Web-App#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
