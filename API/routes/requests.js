@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const RequestForASeat = require('../models/request');
 
-// Getting the count of requests
+// Getting the count of requests\
 router.get('/count', async (req, res) => {
   try {
     const requests = await RequestForASeat.find();
